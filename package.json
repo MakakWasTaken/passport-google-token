@@ -3,12 +3,12 @@
   "version": "0.1.2",
   "description": "Google token authentication strategy for Passport.",
   "author": {
-    "name": "Rob DiMarco",
-    "email": "dimarco.robert@gmail.com"
+    "name": "Markus Moltke",
+    "email": "makakwastaken@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/robertdimarco/passport-google-token.git"
+    "url": "git://github.com/makakwastaken/passport-google-token.git"
   },
   "bugs": {
     "url": "http://github.com/robertdimarco/passport-google-token/issues"
@@ -18,10 +18,22 @@
     "pkginfo": "0.2.x",
     "passport-oauth": "^1.0.0"
   },
-  "engines": { "node": ">= 0.4.0" },
-  "licenses": [ {
-    "type": "MIT",
-    "url": "http://www.opensource.org/licenses/MIT" 
-  } ],
-  "keywords": ["passport", "google", "auth", "authn", "authentication", "identity"]
+  "types": "./lib/index.d.ts",
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "keywords": [
+    "passport",
+    "google",
+    "auth",
+    "authn",
+    "authentication",
+    "identity"
+  ]
 }
