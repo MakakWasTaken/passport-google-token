@@ -15,8 +15,10 @@
   },
   "main": "./lib/passport-google-token",
   "dependencies": {
-    "pkginfo": "0.2.x",
-    "passport-oauth": "^1.0.0"
+    "@types/express": "*",
+    "@types/passport": "*",
+    "passport-oauth": "^1.0.0",
+    "pkginfo": "0.2.x"
   },
   "types": "./lib/index.d.ts",
   "engines": {
@@ -35,5 +37,9 @@
     "authn",
     "authentication",
     "identity"
-  ]
+  ],
+  "devDependencies": {
+    "@types/node": "^15.12.2",
+    "typescript": "^4.3.2"
+  }
 }
