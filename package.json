@@ -20,7 +20,7 @@
     "passport-oauth": "^1.0.0",
     "pkginfo": "0.2.x"
   },
-  "types": "./lib/index.d.ts",
+  "types": "./lib/passport-google-token/index.d.ts",
   "engines": {
     "node": ">= 0.4.0"
   },
