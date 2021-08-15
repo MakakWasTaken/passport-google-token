@@ -1,6 +1,6 @@
 {
   "name": "passport-google-token",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Google token authentication strategy for Passport.",
   "author": {
     "name": "Markus Moltke",
