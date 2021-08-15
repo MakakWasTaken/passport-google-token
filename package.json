@@ -17,6 +17,7 @@
   "dependencies": {
     "@types/express": "*",
     "@types/passport": "*",
+    "node-fetch": "^2.6.1",
     "passport-oauth": "^1.0.0",
     "pkginfo": "0.2.x"
   },
